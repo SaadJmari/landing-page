@@ -12,6 +12,7 @@
     background-color: #1F2937;
     color: aliceblue;
     gap: 50px;
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -68,11 +69,12 @@
     border-radius: 10px;
     font-weight: bold;
     border-width: 0;
+    cursor: pointer;
 }
 
-.actionButton:hover {
-    background-color: #38d0f6;
-    cursor: pointer;
+.actionButton:active {
+    background-color: #3874f6;
+
 }
 
 a {
@@ -110,4 +112,68 @@ a {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+
+/** Quote Section **/
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    gap: 14px;
+}
+
+.name {
+    align-self: flex-end;
+    margin-right: 370px;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    font-weight: lighter;
+}
+
+/** Call to Action Section **/
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.container button {
+    border-radius: 10px;
+    box-shadow: none;
+    border: white solid 2px;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+
+.container button:active {
+    background-color: #3874f6;
+}
+
+/** Footer **/
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 20px;
 }
